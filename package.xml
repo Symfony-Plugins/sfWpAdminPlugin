@@ -61,26 +61,14 @@
    <pearinstaller>
     <min>1.4.1</min>
    </pearinstaller>
-   
+   <package>
+    <name>symfony</name>
+    <channel>pear.symfony-project.com</channel>
+    <min>1.1.0</min>
+    <max>1.5.0</max>
+   </package>
   </required>
  </dependencies>
  <phprelease/>
- <changelog>
-  <release>
-   <version>
-    <release>0.1.0</release>
-    <api>0.1.0</api>
-   </version>
-   <stability>
-    <release>beta</release>
-    <api>beta</api>
-   </stability>
-   <license uri="http://www.symfony-project.com/license">MIT license</license>
-   <license>MIT</license>
-   <date>2011-01-21</date>
-   <notes>
--
-   </notes>
-  </release>
- </changelog>
+ <changelog />
 </package>
