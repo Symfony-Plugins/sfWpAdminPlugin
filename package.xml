@@ -47,7 +47,7 @@
    <file name="web/images/media-button-other.gif" role="data"/>
    <file name="web/images/media-buttons.gif" role="data"/>
    <file name="web/images/media-button-video.gif" role="data"/>
-   <file name="sfLogo.png" role="data"/>
+   <file name="web/images/sfLogo.png" role="data"/>
    <file name="LICENSE" role="data"/>
    <file name="README" role="data"/>
    <file name="VERSION" role="data"/>
