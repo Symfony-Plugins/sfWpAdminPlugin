@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packagerversion="1.9.1" version="2.0" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+ <name>sfWpAdminPlugin</name>
+ <channel>plugins.symfony-project.org</channel>
+ <summary>Administration menu plugin.</summary>
+ <description>Administration menu plugin.</description>
+ <lead>
+  <name>Lucian Campan</name>
+  <user>lucian</user>
+  <email>campan@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2011-01-21</date>
+ <time>16:40:29</time>
+ <version>
+  <release>0.1.0</release>
+  <api>0.1.0</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.symfony-project.org/license">MIT license</license>
+ <notes>
+-
+ </notes>
+ <contents>
+  <dir name="/">
+   <file name="config/app.yml" role="data"/>
+   <file name="lib/sfWpAdmin.class.php" role="data"/>
+   <file name="modules/sfWpAdmin/actions/actions.class.php" role="data"/>
+   <file name="modules/sfWpAdmin/config/view.yml" role="data"/>
+   <file name="modules/sfWpAdmin/templates/_header.php" role="data"/>
+   <file name="modules/sfWpAdmin/templates/_footer.php" role="data"/>
+   <file name="modules/sfWpAdmin/templates/loginSuccess.php" role="data"/>
+   <file name="modules/sfWpAdmin/lib/BasesfWpAdminActions.class.php" role="data"/>
+   <file name="web/css/admin.css" role="data"/>
+   <file name="web/css/admin_login.css" role="data"/>
+   <file name="web/css/admin_media.css" role="data"/>
+   <file name="web/css/admin_sf.css" role="data"/>
+   <file name="web/css/ie.css" role="data"/>
+   <file name="web/css/admin_colors.css" role="data"/>
+   <file name="web/css/admin_global.css" role="data"/>
+   <file name="web/images/media-button-gallery.gif" role="data"/>
+   <file name="web/images/media-button-image.gif" role="data"/>
+   <file name="web/images/media-button-music.gif" role="data"/>
+   <file name="web/images/media-button-other.gif" role="data"/>
+   <file name="web/images/media-buttons.gif" role="data"/>
+   <file name="web/images/media-button-video.gif" role="data"/>
+   <file name="sfLogo.png" role="data"/>
+   <file name="LICENSE" role="data"/>
+   <file name="README" role="data"/>
+   <file name="VERSION" role="data"/>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.1</min>
+   </pearinstaller>
+   
+  </required>
+ </dependencies>
+ <phprelease/>
+ <changelog>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <license uri="http://www.symfony-project.com/license">MIT license</license>
+   <license>MIT</license>
+   <date>2011-01-21</date>
+   <notes>
+-
+   </notes>
+  </release>
+ </changelog>
+</package>
