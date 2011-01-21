@@ -11,7 +11,7 @@ and implement Wordpress inspired menu for your projects backend.
 
   * Install the plugin (via a Subversion checkout)
   
-        svn co http//svn.symfony-project.com/plugins/sfWpAdminPlugin/trunk plugins/sfWpAdminPlugin
+        svn co http://svn.symfony-project.com/plugins/sfWpAdminPlugin/trunk plugins/sfWpAdminPlugin
 
   * Activate the plugin in the `config/ProjectConfiguration.class.php`
   
