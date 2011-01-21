@@ -51,10 +51,10 @@ and implement Wordpress inspired menu for your projects backend.
             items:
               Item 1:
                 Child 1:
-                  module:     module_name
-                  action:     action_name
-                  parameters: [ do: child 1 ]
-                  credential: [ foobar ]
+                  module:      module_name
+                  action:      action_name
+                  parameters:  [ do: child 1 ]
+                  credentials: [ foobar ]
                   alias:
                     - { module: alternate_module, action: alternate_action, parameters: [ id: 1 ] }
 
@@ -90,7 +90,6 @@ To activate the login action simply edit your 'settings.yml' to this:
             action:          new
             parameters:      [type: slideshow]
             credentials:     [photo_editor, editor]       # Menu item will not be shown if user lacks credeantials
-            credentials_and: false                        # All credentials required ?
             alias:
               - { module: article, action: create, parameters: [type: slideshow] }
         Manage:

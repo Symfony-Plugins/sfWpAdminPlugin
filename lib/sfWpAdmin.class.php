@@ -144,15 +144,9 @@ class sfWpAdmin
     if(!isset($item['credential'])) return true;
     
     $user = sfContext::getInstance()->getUser();
-    $credential_and = isset($item['credential_and'])? true: false;
-    foreach($item['credential'] as $credential)
-    {
-      if(!$credential_and && $user->hasCredential($credential))
-        return true;
-      elseif($credential_and && !$user->hasCredential($credential))
-        return false;
-    }
     
-    return false;
+    $credential = $item['credential'];
+
+    return $user->hasCredential($credential);
   }
 }
