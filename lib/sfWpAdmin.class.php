@@ -141,11 +141,11 @@ class sfWpAdmin
   
   public static function hasCredential($item)
   {
-    if(!isset($item['credential'])) return true;
+    if(!isset($item['credentials'])) return true;
     
     $user = sfContext::getInstance()->getUser();
     
-    $credential = $item['credential'];
+    $credential = $item['credentials'];
 
     return $user->hasCredential($credential);
   }
