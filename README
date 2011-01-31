@@ -37,6 +37,10 @@ and implement Wordpress inspired menu for your projects backend.
   * Include the sfWpAdminPlugin header in footer in your layout
   
         [PHP]
+        /* if you use include_stylesheets() make sure to add the WpAdmin assets */
+        <?php sfWpAdmin::addAssets() ?>
+        <?php include_stylesheets() ?>
+        
         include_partial('sfWpAdmin/header')
         ...
           <?php echo $sf_data->getRaw('sf_content') ?>

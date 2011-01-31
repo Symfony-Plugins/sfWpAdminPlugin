@@ -9,6 +9,14 @@
 */ 
 class sfWpAdmin
 {
+  public static function addAssets()
+  {
+    $context->getResponse()->addStylesheet(sfWpAdmin::getProperty('web_dir').'/css/admin_global.css');
+    $context->getResponse()->addStylesheet(sfWpAdmin::getProperty('web_dir').'/css/admin.css');
+    $context->getResponse()->addStylesheet(sfWpAdmin::getProperty('web_dir').'/css/admin_colors.css');
+    $context->getResponse()->addStylesheet(sfWpAdmin::getProperty('web_dir').'/css/admin_sf.css');
+  }
+  
   public static function getProperty($name, $default = null)
   {
     return sfConfig::get('app_sf_wp_admin_'.$name, $default);
