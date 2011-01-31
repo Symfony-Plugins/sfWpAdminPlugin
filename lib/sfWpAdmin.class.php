@@ -11,6 +11,8 @@ class sfWpAdmin
 {
   public static function addAssets()
   {
+    $context = sfContext::getInstance();
+    
     $context->getResponse()->addStylesheet(sfWpAdmin::getProperty('web_dir').'/css/admin_global.css');
     $context->getResponse()->addStylesheet(sfWpAdmin::getProperty('web_dir').'/css/admin.css');
     $context->getResponse()->addStylesheet(sfWpAdmin::getProperty('web_dir').'/css/admin_colors.css');
