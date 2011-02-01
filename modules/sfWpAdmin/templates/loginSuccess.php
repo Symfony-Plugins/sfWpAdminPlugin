@@ -2,12 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 
-<?php use_stylesheet(sfWpAdmin::getProperty('web_dir').'/css/admin_login.css') ?>
-<?php use_stylesheet(sfWpAdmin::getProperty('web_dir').'/css/admin_colors.css') ?>
+<?php echo stylesheet_tag(sfWpAdmin::getProperty('web_dir').'/css/admin_login.css') ?>
+<?php echo stylesheet_tag(sfWpAdmin::getProperty('web_dir').'/css/admin_colors.css') ?>
 <?php include_http_metas() ?>
 <?php include_metas() ?>
 
 <?php include_title() ?>
+
 
 <link rel="shortcut icon" href="/favicon.ico" />
 
