@@ -48,9 +48,9 @@
       </p>
     </form>
 
-    <p id="nav">
+    <!--p id="nav">
       <a title="Password Lost and Found" href="#">Lost your password?</a>
-    </p>
+    </p-->
 
   </div>
   
