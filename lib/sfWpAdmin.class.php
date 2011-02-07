@@ -1,11 +1,11 @@
 <?php
 /**
-* sfAdminDash main class
+* sfWpAdmin main class
 *
 * @package    plugins
-* @subpackage sfAdminDash
-* @author     kevin
-* @version    SVN: $Id: sfAdminDash.class.php 25249 2009-12-11 09:50:42Z Crafty_Shadow $
+* @subpackage sfWpAdmin
+* @author     lucian
+* @version    SVN: $Id: sfWpAdmin.class.php 25249 2010-12-11 09:50:42Z lucian $
 */ 
 class sfWpAdmin
 {

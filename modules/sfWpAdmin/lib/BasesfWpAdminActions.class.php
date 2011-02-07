@@ -1,11 +1,11 @@
 <?php
 /**
- * sfAdminDash base actions.
+ * sfWpAdmin base actions.
  *
  * @package    plugins
- * @subpackage sfAdminDash
- * @author     Ivan Tanev aka Crafty_Shadow @ webworld.bg <vankata.t@gmail.com>
- * @version    SVN: $Id: BasesfAdminDashActions.class.php 25203 2009-12-10 16:50:26Z Crafty_Shadow $
+ * @subpackage sfWpAdmin
+ * @author     lucian
+ * @version    SVN: $Id: BasesfWpAdminActions.class.php 25203 2010-12-10 16:50:26Z lucian $
  */ 
 class BasesfWpAdminActions extends sfActions
 {
