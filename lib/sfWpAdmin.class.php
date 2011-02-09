@@ -149,6 +149,14 @@ class sfWpAdmin
     return link_to($name, self::menuUrl($item), self::checkSubChild($item) ? "class=current" : '');
   }
   
+  public static function hasSubCredential($item)
+  {
+    foreach($item as $subitem)
+      if(self::hasCredential($subitem)) return true;
+    
+    return false;
+  }
+  
   public static function hasCredential($item)
   {
     if(!isset($item['credentials'])) return true;
