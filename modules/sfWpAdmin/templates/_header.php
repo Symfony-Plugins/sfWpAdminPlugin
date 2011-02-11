@@ -37,7 +37,7 @@
   
   <ul id="sidemenu">
     <?php foreach (sfWpAdmin::getSubItems() as $name => $item): ?>
-      <?php if(sfWpAdmin::hasCredential($item)): ?>
+      <?php if(sfWpAdmin::hasSubCredential($item)): ?>
         <li><?php echo sfWpAdmin::menuLink($name, $item) ?></li>
       <?php endif ?>
     <?php endforeach ?>
