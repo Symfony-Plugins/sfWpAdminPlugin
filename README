@@ -66,6 +66,8 @@ and implement Wordpress inspired menu for your projects backend.
 
         symfony cc
 
+
+
 ## Login screen ##
 
 To use the wordpress style login screen you need a form having the same fields 
@@ -73,10 +75,12 @@ as sfGuardFormSignin (eg: username, password, remember).
 
 To activate the login action simply edit your 'settings.yml' to this:
 
-  all:
-    .actions:
-      login_module:           sfWpAdmin   # To be called when a non-authenticated user
-      login_action:           login       # Tries to access a secure page
+    all:
+      .actions:
+        login_module:           sfWpAdmin   # To be called when a non-authenticated user
+        login_action:           login       # Tries to access a secure page
+
+
 
 ## Sample menu setup ##
 
